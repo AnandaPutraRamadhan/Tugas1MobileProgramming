@@ -64,9 +64,6 @@ class CircleMock implements Circle{
 String scream(int length) => "A${'a' * length}h!";
 
 void main() {
-  print('ilham agung pratama');
-  print('065118334');
-  
   var bike = Bicycle(2, 1);
   print(bike);
   
